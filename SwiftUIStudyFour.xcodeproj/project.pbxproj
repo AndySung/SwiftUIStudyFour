@@ -14,6 +14,15 @@
 		A1511A992C37D1300069DF73 /* SwiftUIStudyFourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1511A982C37D1300069DF73 /* SwiftUIStudyFourTests.swift */; };
 		A1511AA32C37D1300069DF73 /* SwiftUIStudyFourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1511AA22C37D1300069DF73 /* SwiftUIStudyFourUITests.swift */; };
 		A1511AA52C37D1300069DF73 /* SwiftUIStudyFourUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1511AA42C37D1300069DF73 /* SwiftUIStudyFourUITestsLaunchTests.swift */; };
+		A1511AB32C37D2CA0069DF73 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1511AB22C37D2CA0069DF73 /* WeatherData.swift */; };
+		A1511AB82C37D56C0069DF73 /* ImageRendererPDFAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1511AB72C37D56C0069DF73 /* ImageRendererPDFAppView.swift */; };
+		A1511ABB2C37D8D80069DF73 /* GaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1511ABA2C37D8D80069DF73 /* GaugeView.swift */; };
+		A1511ABE2C37DA5F0069DF73 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1511ABD2C37DA5F0069DF73 /* GridView.swift */; };
+		A1511AC12C37DBE30069DF73 /* AnylayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1511AC02C37DBE30069DF73 /* AnylayoutView.swift */; };
+		A1511AC62C37DCE30069DF73 /* MapDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1511AC52C37DCE30069DF73 /* MapDemoView.swift */; };
+		A1511AC92C37E4AE0069DF73 /* PieDonutChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1511AC82C37E4AE0069DF73 /* PieDonutChartView.swift */; };
+		A1511ACC2C37E9560069DF73 /* ScrollPositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1511ACB2C37E9560069DF73 /* ScrollPositionView.swift */; };
+		A1511ACF2C37EAD90069DF73 /* ScrollViewAnimationViwe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1511ACE2C37EAD90069DF73 /* ScrollViewAnimationViwe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +53,15 @@
 		A1511A9E2C37D1300069DF73 /* SwiftUIStudyFourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIStudyFourUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1511AA22C37D1300069DF73 /* SwiftUIStudyFourUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStudyFourUITests.swift; sourceTree = "<group>"; };
 		A1511AA42C37D1300069DF73 /* SwiftUIStudyFourUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStudyFourUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A1511AB22C37D2CA0069DF73 /* WeatherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		A1511AB72C37D56C0069DF73 /* ImageRendererPDFAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRendererPDFAppView.swift; sourceTree = "<group>"; };
+		A1511ABA2C37D8D80069DF73 /* GaugeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeView.swift; sourceTree = "<group>"; };
+		A1511ABD2C37DA5F0069DF73 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		A1511AC02C37DBE30069DF73 /* AnylayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnylayoutView.swift; sourceTree = "<group>"; };
+		A1511AC52C37DCE30069DF73 /* MapDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDemoView.swift; sourceTree = "<group>"; };
+		A1511AC82C37E4AE0069DF73 /* PieDonutChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieDonutChartView.swift; sourceTree = "<group>"; };
+		A1511ACB2C37E9560069DF73 /* ScrollPositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollPositionView.swift; sourceTree = "<group>"; };
+		A1511ACE2C37EAD90069DF73 /* ScrollViewAnimationViwe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewAnimationViwe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +112,16 @@
 		A1511A862C37D12E0069DF73 /* SwiftUIStudyFour */ = {
 			isa = PBXGroup;
 			children = (
+				A1511ACD2C37EA9A0069DF73 /* 50ScrollViewAnimation */,
+				A1511ACA2C37E9210069DF73 /* 49Scrollposition */,
+				A1511AC72C37E43D0069DF73 /* 48PieDonutChart */,
+				A1511AC22C37DC640069DF73 /* 46MapDemo */,
+				A1511ABF2C37DBC10069DF73 /* 45AnyLayout */,
+				A1511ABC2C37DA3A0069DF73 /* 44GridView */,
+				A1511AB92C37D8BE0069DF73 /* 43Gauge */,
+				A1511AB42C37D4850069DF73 /* 42ImageRendererPDFStarter */,
+				A1511AB12C37D2190069DF73 /* 41ImageRenderer */,
 				A1511A872C37D12E0069DF73 /* SwiftUIStudyFourApp.swift */,
-				A1511A892C37D12E0069DF73 /* ContentView.swift */,
 				A1511A8B2C37D1300069DF73 /* Assets.xcassets */,
 				A1511A8D2C37D1300069DF73 /* Preview Content */,
 			);
@@ -125,6 +151,79 @@
 				A1511AA42C37D1300069DF73 /* SwiftUIStudyFourUITestsLaunchTests.swift */,
 			);
 			path = SwiftUIStudyFourUITests;
+			sourceTree = "<group>";
+		};
+		A1511AB12C37D2190069DF73 /* 41ImageRenderer */ = {
+			isa = PBXGroup;
+			children = (
+				A1511AB22C37D2CA0069DF73 /* WeatherData.swift */,
+				A1511A892C37D12E0069DF73 /* ContentView.swift */,
+			);
+			path = 41ImageRenderer;
+			sourceTree = "<group>";
+		};
+		A1511AB42C37D4850069DF73 /* 42ImageRendererPDFStarter */ = {
+			isa = PBXGroup;
+			children = (
+				A1511AB72C37D56C0069DF73 /* ImageRendererPDFAppView.swift */,
+			);
+			path = 42ImageRendererPDFStarter;
+			sourceTree = "<group>";
+		};
+		A1511AB92C37D8BE0069DF73 /* 43Gauge */ = {
+			isa = PBXGroup;
+			children = (
+				A1511ABA2C37D8D80069DF73 /* GaugeView.swift */,
+			);
+			path = 43Gauge;
+			sourceTree = "<group>";
+		};
+		A1511ABC2C37DA3A0069DF73 /* 44GridView */ = {
+			isa = PBXGroup;
+			children = (
+				A1511ABD2C37DA5F0069DF73 /* GridView.swift */,
+			);
+			path = 44GridView;
+			sourceTree = "<group>";
+		};
+		A1511ABF2C37DBC10069DF73 /* 45AnyLayout */ = {
+			isa = PBXGroup;
+			children = (
+				A1511AC02C37DBE30069DF73 /* AnylayoutView.swift */,
+			);
+			path = 45AnyLayout;
+			sourceTree = "<group>";
+		};
+		A1511AC22C37DC640069DF73 /* 46MapDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A1511AC52C37DCE30069DF73 /* MapDemoView.swift */,
+			);
+			path = 46MapDemo;
+			sourceTree = "<group>";
+		};
+		A1511AC72C37E43D0069DF73 /* 48PieDonutChart */ = {
+			isa = PBXGroup;
+			children = (
+				A1511AC82C37E4AE0069DF73 /* PieDonutChartView.swift */,
+			);
+			path = 48PieDonutChart;
+			sourceTree = "<group>";
+		};
+		A1511ACA2C37E9210069DF73 /* 49Scrollposition */ = {
+			isa = PBXGroup;
+			children = (
+				A1511ACB2C37E9560069DF73 /* ScrollPositionView.swift */,
+			);
+			path = 49Scrollposition;
+			sourceTree = "<group>";
+		};
+		A1511ACD2C37EA9A0069DF73 /* 50ScrollViewAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				A1511ACE2C37EAD90069DF73 /* ScrollViewAnimationViwe.swift */,
+			);
+			path = 50ScrollViewAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +356,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1511ABB2C37D8D80069DF73 /* GaugeView.swift in Sources */,
+				A1511AC62C37DCE30069DF73 /* MapDemoView.swift in Sources */,
+				A1511ACF2C37EAD90069DF73 /* ScrollViewAnimationViwe.swift in Sources */,
+				A1511ACC2C37E9560069DF73 /* ScrollPositionView.swift in Sources */,
+				A1511AB82C37D56C0069DF73 /* ImageRendererPDFAppView.swift in Sources */,
+				A1511AC12C37DBE30069DF73 /* AnylayoutView.swift in Sources */,
 				A1511A8A2C37D12E0069DF73 /* ContentView.swift in Sources */,
+				A1511AC92C37E4AE0069DF73 /* PieDonutChartView.swift in Sources */,
+				A1511AB32C37D2CA0069DF73 /* WeatherData.swift in Sources */,
+				A1511ABE2C37DA5F0069DF73 /* GridView.swift in Sources */,
 				A1511A882C37D12E0069DF73 /* SwiftUIStudyFourApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
